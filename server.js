@@ -13,7 +13,7 @@ connectDB();
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:3000', // Replace with your frontend URL
+  origin: 'https://mob-ui-mic.vercel.app', // Replace with your frontend URL
   methods: ['GET', 'POST', 'DELETE'],
   credentials: true
 }));
